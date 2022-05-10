@@ -84,3 +84,19 @@ df.to_pandas().plot(figsize=(13,6), grid=True).legend(loc='upper left')
 
 if run_as == "testing":
   spark.sql("DROP TABLE testing_covid_analysis")
+
+# COMMAND ----------
+
+# MAGIC %pip install bamboolib
+
+# COMMAND ----------
+
+import bamboolib as bam
+
+# COMMAND ----------
+
+bam
+
+# COMMAND ----------
+
+
