@@ -69,3 +69,7 @@ display(spark.table("dev_covid_analysis"))
 # Using python
 df.to_pandas().plot(figsize=(13,6), grid=True).legend(loc='upper left')
 
+
+# COMMAND ----------
+
+
